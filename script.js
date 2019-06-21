@@ -1,9 +1,3 @@
-function swap(a, b) {
-  var c = a
-  a = b
-  b = c
-}
-
 function sortByCharacter (text) {
   // Your code here
 
