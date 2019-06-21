@@ -3,7 +3,7 @@ function sortByCharacter (text) {
 
  var str = text.split('')
   for (var i = 0; i < str.length - 2; i++) {
-    for (var j = 0; j < str.length - i; j++) {
+    for (var j = 0; j < str.length - i - 1; j++) {
       if (str[j] > str[j + 1]) {
         var temp = str[j]
         str[j] = str[j + 1]
