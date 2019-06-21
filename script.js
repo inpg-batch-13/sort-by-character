@@ -1,5 +1,5 @@
 function sortByCharacter (text) {
-  // Your code here
+return text.split('').sort().join('')
 }
 
 // TEST CASES
